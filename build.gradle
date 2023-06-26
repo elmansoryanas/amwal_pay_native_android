@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    // Configure your Android build settings
+    // ...
+}
+
+dependencies {
+    // Add any dependencies required by your AAR module
+    // ...
+}
+
+publishing {
+    publications {
+        // Define the publication configuration
+        aar(MavenPublication) {
+            groupId 'com.amwal'
+            artifactId 'amwal_pay_sdk'
+            version '1.0.0'
+            // Configure additional publication details
+            // ...
+        }
+    }
+    repositories {
+        maven {
+            // Configure the repository where JitPack will publish the AAR
+            url 'https://jitpack.io'
+        }
+    }
+}
