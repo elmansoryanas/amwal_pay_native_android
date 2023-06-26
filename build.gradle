@@ -1,14 +1,5 @@
-apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
-android {
-    // Configure your Android build settings
-    // ...
-}
-
-dependencies {
-    // Add any dependencies required by your AAR module
-    // ...
-}
 
 publishing {
     publications {
@@ -21,10 +12,10 @@ publishing {
             // ...
         }
     }
-    repositories {
-        maven {
-            // Configure the repository where JitPack will publish the AAR
-            url 'https://jitpack.io'
-        }
+   repositories {
+    maven{
+        url 'https://jitpack.io'
+
+    }
     }
 }
