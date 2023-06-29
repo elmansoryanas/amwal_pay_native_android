@@ -8,12 +8,18 @@
   <packaging>pom</packaging>
   <name>amwal_pay_sdk</name>
   
-  <modules>
-    <module>flutter_release</module>
+ <profiles>
+    <profile>
+        <modules>
+           <module>flutter_release</module>
     <module>pathprovider</module>
     <module>share_plus_release</module>
-    <module>smart_auth_release</module>
-  </modules>
+    <module>smart_auth_release</module>        
+        </modules>
+    </profile>
+</profiles>
+    
+
   
   <build>
     <plugins>
