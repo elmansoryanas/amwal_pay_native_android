@@ -1,4 +1,0 @@
-include 'flutter_release'
-include 'pathprovider'
-include 'share_plus_release'
-include 'smart_auth_release'
