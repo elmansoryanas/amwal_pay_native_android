@@ -1,3 +1,5 @@
 install:
-  - mvn install:install-file -Dfile=./flutter_release/1.0/flutter_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=amwal_pay_native_android -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./flutter_release/1.0/flutter_release-1.0.pom
-  - mvn install:install-file -Dfile=./path_provider_android_release/1.0/path_provider_android_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=amwal_pay_native_android -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./path_provider_android_release/1.0/path_provider_android_release-1.0.pom
+  - mvn install:install-file -Dfile=./flutter_release/1.0/flutter_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=amwal_pay_sdk -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./flutter_release/1.0/flutter_release-1.0.pom
+  - mvn install:install-file -Dfile=./path_provider_android_release/1.0/path_provider_android_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=pathprovider -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./path_provider_android_release/1.0/path_provider_android_release-1.0.pom
+  - mvn install:install-file -Dfile=./share_plus_release/1.0/share_plus_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=share_plus -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./share_plus_release/1.0/share_plus_release-1.0.pom
+  - mvn install:install-file -Dfile=./smart_auth_release/1.0/smart_auth_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=smart_auth -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./smart_auth_release/1.0/smart_auth_release-1.0.pom
