@@ -37,19 +37,19 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.amwal.amwal_pay</groupId>
+      <groupId>dev.fluttercommunity.plus.share</groupId>
       <artifactId>share_plus_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.amwal.amwal_pay</groupId>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
       <artifactId>path_provider_android_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.amwal.amwal_pay</groupId>
+      <groupId>fman.ge.smart_auth</groupId>
       <artifactId>smart_auth_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
