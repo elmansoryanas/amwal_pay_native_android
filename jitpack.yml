@@ -1,0 +1,3 @@
+install:
+  - mvn install:install-file -Dfile=./flutter_release/1.0/flutter_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=amwal_pay_native_android -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./flutter_release/1.0/flutter_release-1.0.pom
+  - mvn install:install-file -Dfile=./path_provider_android_release/1.0/path_provider_android_release-1.0.aar  -DgroupId=com.github.elmansoryanas -DartifactId=amwal_pay_native_android -Dversion=1.0.0 -Dpackaging=aar -DpomFile=./path_provider_android_release/1.0/path_provider_android_release-1.0.pom
