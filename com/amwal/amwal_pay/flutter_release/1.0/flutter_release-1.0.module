@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.amwal.amwal_pay",
+    "module": "flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "fman.ge.smart_auth",
+          "module": "smart_auth_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 10396735,
+          "sha512": "b3f32df878a9cf676096840c9faf203b4d016a6d2259b0ee6af7c566c86b4685a841c3e6b5bd664e4907517e41b1afd8d230e0203303a67bb844a50578be995a",
+          "sha256": "3017ea7db2e7a1bf743eef042acd630f1782cb89660be96e369053077bfde982",
+          "sha1": "f7c621589ab5f94ba13f1941549f0e324046a3fd",
+          "md5": "7f303812923a0ea7260c3206180a5a14"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "fman.ge.smart_auth",
+          "module": "smart_auth_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 10396735,
+          "sha512": "b3f32df878a9cf676096840c9faf203b4d016a6d2259b0ee6af7c566c86b4685a841c3e6b5bd664e4907517e41b1afd8d230e0203303a67bb844a50578be995a",
+          "sha256": "3017ea7db2e7a1bf743eef042acd630f1782cb89660be96e369053077bfde982",
+          "sha1": "f7c621589ab5f94ba13f1941549f0e324046a3fd",
+          "md5": "7f303812923a0ea7260c3206180a5a14"
+        }
+      ]
+    }
+  ]
+}
