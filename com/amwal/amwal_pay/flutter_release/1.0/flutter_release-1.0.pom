@@ -37,19 +37,19 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>dev.fluttercommunity.plus.share</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>share_plus_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>path_provider_android_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>fman.ge.smart_auth</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>smart_auth_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
