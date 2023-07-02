@@ -43,19 +43,19 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.elmansoryanas.amwal_pay_native_android</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>share_plus_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.elmansoryanas.amwal_pay_native_android</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>path_provider_android_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.elmansoryanas.amwal_pay_native_android</groupId>
+      <groupId>com.github.elmansoryanas</groupId>
       <artifactId>smart_auth_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
